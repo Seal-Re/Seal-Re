@@ -1,69 +1,51 @@
-# Hi, I'm Seal 👋
+# Seal
 
-> Backend engineer focused on AI-driven systems, distributed microservices, and full-stack product delivery.
->
-> 后端方向，专注 AI 驱动系统、分布式微服务与全栈产品落地。
+Backend-leaning developer. Most of my work is Java (Spring Boot) and Python services; lately also LLM agents and tools, plus a couple of game projects.
 
----
+## Projects
 
-## Featured Projects
+**AI and agents**
 
-### AI & LLM Systems
+- [pentest-platform](https://github.com/Seal-Re/pentest-platform) — LLM-guided pentest automation: Java/Python services run Docker-isolated security tools in six phases and log every step. Team project with [@Woor3x](https://github.com/Woor3x).
+- [WebClaw](https://github.com/Seal-Re/WebClaw) — crawler and skills that build and query a Qdrant security knowledge base for pentest-platform.
+- [SealClaw](https://github.com/Seal-Re/SealClaw) — async OneBot V11 QQ bot with a tool-calling LLM, SQLite retrieval and Steam/Bilibili/Heybox watchers.
+- [bg3-skill](https://github.com/Seal-Re/bg3-skill) — Baldur's Gate 3 wiki data and a Python damage-expectation engine, packaged as a Claude Code skill.
+- [GenshinZhangCaoJi](https://github.com/Seal-Re/GenshinZhangCaoJi) — prototype Genshin Impact agent: LangGraph skill router, OpenCV heuristics, Claude/OpenAI vision.
 
-| Repo | Description | Stack |
-|---|---|---|
-| [pentest-platform](https://github.com/Seal-Re/pentest-platform) | LLM-guided automated penetration testing — 6-phase state machine, 40+ skill containers, Three.js UI | Spring Boot · Python · LangGraph · Docker · Qdrant |
-| [WebClaw](https://github.com/Seal-Re/WebClaw) | RAG knowledge layer for pentest AI — 24/7 OpenClaw crawler → Qdrant vector DB | Python · Node.js · Qdrant · Tavily |
-| [GenshinZhangCaoJi](https://github.com/Seal-Re/GenshinZhangCaoJi) | Autonomous Genshin Impact agent — LangGraph state machine, multi-provider VLM (Claude/Gemini/GPT-4o) | Python · LangGraph · OpenCV · pyautogui |
+**Web applications**
 
-### Full-Stack Platforms
+- [SealPi-Blog](https://github.com/Seal-Re/SealPi-Blog) — my blog: Spring Boot DDD-style backend, Next.js 15 frontend, Excalidraw-authored posts.
+- [zjuBackend](https://github.com/Seal-Re/zjuBackend) — Fastop, an aircraft-inspection test-management platform (Spring Boot + Vue 3). Team project with [@bddye](https://github.com/bddye).
+- [TT_APP_2025_BackEnd](https://github.com/Seal-Re/TT_APP_2025_BackEnd) — Netty WebSocket chat backend with JWT auth at the handshake, for a Douyin 2025 competition miniapp. Team project with [@xiekakaban](https://github.com/xiekakaban).
+- [Stroke-Training-Platform](https://github.com/Seal-Re/Stroke-Training-Platform) — stroke rehab training: Flask API with DeepSeek-generated exercises, ASR and edge-TTS; Vue 3 UI.
+- [Realistic-Consultation](https://github.com/Seal-Re/Realistic-Consultation) — AI consultation chat: Flask + DeepSeek, edge-TTS voice, Live2D avatar.
+- [Xiaofuyou-WxApp](https://github.com/Seal-Re/Xiaofuyou-WxApp) — WeChat miniapp for music therapy in ICUs (public-welfare project), built on WeChat Cloud Development.
 
-| Repo | Description | Stack |
-|---|---|---|
-| [SealPi-Blog](https://github.com/Seal-Re/SealPi-Blog) | Personal blog platform — DDD/COLA 6-module layering, Next.js BFF with JWT, Excalidraw content | Next.js · Spring Boot · MySQL · MinIO |
-| [Stroke-Training-Platform](https://github.com/Seal-Re/Stroke-Training-Platform-Back-End) | Stroke rehab platform — LLM personalized exercises, real-time ASR, edge-TTS voice guidance | Flask · OpenAI · ffmpeg · Vue 3 |
-| [Realistic-Consultation](https://github.com/Seal-Re/Realistic-Consultation-Back-End) | AI consultation system — LLM + TTS pipeline, MongoDB session history | Flask · OpenAI · edge-tts · MongoDB |
+**Games**
 
-### Backend & Microservices
+- [jiuye](https://github.com/Seal-Re/jiuye) — deterministic wuxia-world simulation in C#, with a Godot 4.7 host in progress.
+- [backrooms-endless-halls](https://github.com/Seal-Re/backrooms-endless-halls) — Chinese Backrooms × SCP knowledge base and a single-file offline text survival game.
 
-| Repo | Description | Stack |
-|---|---|---|
-| [zjuBackend](https://github.com/Seal-Re/zjuBackend) | University club management — domain-split microservices, RBAC + op-log, local-first test mocks | Spring Boot · MyBatis · MySQL |
-| [ems-backend](https://github.com/Seal-Re/ems-backend) | Event Management System — Nacos discovery, RocketMQ transactional async notification | Spring Cloud Alibaba · RocketMQ · Nacos |
-| [TT_APP_2025_BackEnd](https://github.com/Seal-Re/TT_APP_2025_BackEnd) | TikTok 2025 competition chat backend — Netty NIO WebSocket, JWT at HTTP upgrade | Spring Boot · Netty · JWT |
-| [DockerPortalServer](https://github.com/Seal-Re/DockerPortalServer) | Docker container management REST backend — docker-java SDK, MyBatis-Plus config persistence | Spring Boot · docker-java · MySQL |
+**Smaller projects and coursework**
 
-### IoT & Hardware
+- [ems](https://github.com/Seal-Re/ems) — RocketMQ event publish/subscribe with Nacos discovery and a Vue 2 admin UI.
+- [hardware-pulse](https://github.com/Seal-Re/hardware-pulse) — Termux pipeline tracking second-hand hardware prices on Xianyu: Rust ingest service and a uiautomator2 crawler.
+- [DockerPortal](https://github.com/Seal-Re/DockerPortal) / [Portal](https://github.com/Seal-Re/Portal) — Spring Boot + Vue tools for starting and monitoring Docker containers.
+- [QuizPlatform](https://github.com/Seal-Re/QuizPlatform) — Vue 3 quiz UI over a small Spring Boot + MongoDB service.
 
-| Repo | Description | Stack |
-|---|---|---|
-| [hardware-pulse](https://github.com/Seal-Re/hardware-pulse) | Android Termux multi-runtime edge agent — Rust sensor daemon, Java/Python API, LLM-as-ETL | Rust · Java · Python · uiautomator2 |
+## Tools I use
 
-### Security Tools
+Java, Python, TypeScript, C#, Rust · Spring Boot, Spring Cloud Alibaba, Netty, Flask, FastAPI · Vue, React, Next.js · MySQL, MongoDB, Redis, Qdrant · Docker, GitHub Actions
 
-| Repo | Description | Stack |
-|---|---|---|
-| [SealClaw](https://github.com/Seal-Re/SealClaw) | Multi-platform intelligence bot — RAG contradiction detection, Steam side-channel, offline pytest | Python · OneBot V11 · Qdrant |
+## Stats
 
-### Frontend & Miniapp
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg">
+  <img alt="GitHub stats" src="./profile/stats-light.svg">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg">
+  <img alt="Top languages" src="./profile/top-langs-light.svg">
+</picture>
 
-| Repo | Description | Stack |
-|---|---|---|
-| [Xiaofuyou-WxApp](https://github.com/Seal-Re/Xiaofuyou-WxApp) | ICU music therapy WeChat miniapp (public welfare) — cloud functions, multi-package, i18n | WeChat Miniapp · Cloud Development |
-
----
-
-## Tech Stack
-
-```
-Languages    Python · Java · TypeScript · Rust · JavaScript
-AI / LLM     LangGraph · LangChain · OpenAI API · RAG (Qdrant) · edge-tts · ASR
-Backend      Spring Boot · Spring Cloud Alibaba · Flask · Netty · RocketMQ · Nacos
-Frontend     Vue 3 · Next.js · React · Element Plus · Three.js
-Database     MySQL · MongoDB · Redis · Qdrant
-DevOps       Docker · GitHub Actions · Maven · Vite
-```
-
----
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Seal-Re&show_icons=true&theme=radical)
+<sub>Cards are generated daily by a GitHub Actions workflow and committed to this repo (no live third-party embeds). Language percentages count bytes in each repo, so vendored data and third-party code (e.g. the wiki dump in bg3-skill, the vendored claw-code in pentest-platform) inflate HTML and Rust.</sub>
