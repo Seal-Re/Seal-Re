@@ -48,4 +48,4 @@ Java, Python, TypeScript, C#, Rust · Spring Boot, Spring Cloud Alibaba, Netty, 
   <img alt="Top languages" src="./profile/top-langs-light.svg?v=2">
 </picture>
 
-<sub>Cards are generated daily by a GitHub Actions workflow and committed to this repo (no live third-party embeds). Language percentages count bytes in each repo, so vendored data and third-party code (e.g. the wiki dump in bg3-skill, the vendored claw-code in pentest-platform) inflate HTML and Rust.</sub>
+<sub>Cards are generated daily by a GitHub Actions workflow and committed to this repo (no live third-party embeds). Commit count is all-time and includes the automated heartbeat commits from footprint-public. The language card excludes bg3-skill (a vendored wiki data dump) and hides Rust (almost entirely the vendored claw-code in pentest-platform), so the mix reflects code I actually wrote.</sub>
