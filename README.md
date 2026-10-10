@@ -40,12 +40,12 @@ Java, Python, TypeScript, C#, Rust · Spring Boot, Spring Cloud Alibaba, Netty, 
 ## Stats
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg">
-  <img alt="GitHub stats" src="./profile/stats-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg?v=2">
+  <img alt="GitHub stats" src="./profile/stats-light.svg?v=2">
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg">
-  <img alt="Top languages" src="./profile/top-langs-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg?v=2">
+  <img alt="Top languages" src="./profile/top-langs-light.svg?v=2">
 </picture>
 
 <sub>Cards are generated daily by a GitHub Actions workflow and committed to this repo (no live third-party embeds). Language percentages count bytes in each repo, so vendored data and third-party code (e.g. the wiki dump in bg3-skill, the vendored claw-code in pentest-platform) inflate HTML and Rust.</sub>
